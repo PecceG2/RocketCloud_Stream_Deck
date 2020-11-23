@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PC status page</title>
+		<link rel="stylesheet" href="/css/style.css"/>
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/glow-progressbar.css">
+		<link rel="stylesheet" href="/css/font_open_sans_condensed_700.css">
+	</head>
+	<body>
+		<div class="container">
+		  <div class="row" style="height:230px;">
+			<div class="col gpucpu">
+			  <div class="cpu">
+				<h3>CPU</h3>
+				<div id="circle-cpu">
+					<h3 style="top: 109px;position: fixed;left: 102px;">NA%</h3>
+					<h5 style="top: 146px;position: fixed;left: 111px;font-size: 13px;">NA°C</h5>
+				</div>
+			  </div>
+			</div>
+			<div class="col ping">
+				<h4 style="padding-top: 24px;margin-bottom: 0px;">NETWORK</h4>
+				<h5 class="pingLabel">0 ms</h5>
+				
+				<a href="/"><img src="/img/DeckIcon.png" style=" margin-top: -27px; width: 184px; "></a>
+			</div>
+			<div class="col gpucpu">
+			  <div class="gpu">
+				<h3>GPU</h3>
+				<div id="circle-gpu">
+					<h3 style="top: 109px;position: fixed;left: 490px;">NA%</h3>
+					<h5 style="top: 146px;position: fixed;left: 499px;font-size: 13px;">NA°C</h5>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div class="row" style=" height: 230px; ">
+			<div class="col" style="margin-left: 94px;margin-right: 94px;">
+				<h3 style="margin:0;">RAM</h3>
+				<h5 class="ramUsageLabel" style="font-size: 17px;">0%</h5>
+				<div class="chart" style="font-size:0.4em;">
+					<div class="bar bar-0 white">
+						<div class="face top">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face side-0">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face floor">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face side-a"></div>
+						<div class="face side-b"></div>
+						<div class="face side-1">
+							<div class="growing-bar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+		  
+		 
+		  
+		  
+		  
+		</div>
+		<script src="/js/jquery-3.5.1.min.js"></script>
+		<script src="/js/popper.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/circle-progress.js"></script>
+		<script src="/js/script.js"></script>
+		<script src="/js/socket.io/socket.io.js"></script>
+		<script>
+		  var socket = io();
+		</script>
+		
+	</body>
+</html>
