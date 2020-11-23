@@ -1,0 +1,28 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,ejs"
+  },
+  "author": "PecceG2",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "cpu": "^1.0.1",
+    "discord.js": "^12.4.1",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "install": "^0.13.0",
+    "jquery": "^3.5.1",
+    "jquery-circle-progress": "^1.2.2",
+    "net-ping": "^1.2.3",
+    "os-utils": "0.0.14",
+    "popper.js": "^1.16.1",
+    "pug": "^3.0.0",
+    "socket.io": "^3.0.3",
+    "systeminformation": "^4.30.1"
+  }
+}
