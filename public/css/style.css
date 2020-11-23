@@ -1,0 +1,28 @@
+html, body{
+	background-color: #27253f !important;
+	margin: 0;
+	padding: 0;
+	color: #FFF !important;
+}
+
+h1, h2, h3, h4, h5, p{
+	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+.gpucpu{
+	height: 150px;
+	padding-top: 15px;
+	margin-left: 20px;
+}
+
+.ping{
+	padding-top: 15px;
+}
+
+.pingLabel{
+	font-size: 1rem;
+}
+
+.container{
+	max-width: 100% !important;
+}
