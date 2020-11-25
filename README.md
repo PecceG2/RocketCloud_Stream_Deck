@@ -50,7 +50,7 @@ Before continuing it is necessary have Node JS server installed. You can downloa
    ```
 2. If you need use DiscordBOT, change your BOT TOKEN on `config.json`
    ```JS
-		"BOT_TOKEN": "YOUR_BOT_TOKEN"
+   "BOT_TOKEN": "YOUR_BOT_TOKEN"
    ```
 3. Start server with NPM
    ```sh
