@@ -9,10 +9,17 @@ h1, h2, h3, h4, h5, p{
 	font-family: 'Open Sans Condensed', sans-serif !important;
 }
 
-.gpucpu{
+.cpu-center{
 	height: 150px;
 	padding-top: 15px;
 	margin-left: 20px;
+}
+
+.gpu-center{
+	height: 150px;
+	padding-top: 15px;
+    margin-right: 20px;
+
 }
 
 .ping{
@@ -25,4 +32,27 @@ h1, h2, h3, h4, h5, p{
 
 .container{
 	max-width: 100% !important;
+}
+
+.absolute-text-center{
+	position: absolute; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+.subtitle{
+	top: 100%;
+	font-size: 13px;
+}
+
+.title{
+	top: 83%; 
+}
+
+.ramUsageLabel{
+	font-size: 17px;
+}
+
+.chart{
+	font-size:0.4em !important;
 }
