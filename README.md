@@ -1,4 +1,4 @@
-# RocketCloud_Stream_Deck
+# RocketCloud Stream Deck
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
