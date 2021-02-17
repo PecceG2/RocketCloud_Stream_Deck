@@ -1,0 +1,31 @@
+<service>
+	<id>rocketcloudstreamdeck.exe</id>
+	<name>RocketCloud StreamDeck</name>
+	<description>Service for auto-start RocketCloud StreamDeck NodeJS Server.</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>C:\Users\pecce\Desktop\Proyectos\01. Hardware\02. RocketCloud Stream Deck\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Users\pecce\Desktop\Proyectos\01. Hardware\02. RocketCloud Stream Deck\index.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>RocketCloud StreamDeck wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>DESKTOP-GIULI</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\Users\pecce\Desktop\Proyectos\01. Hardware\02. RocketCloud Stream Deck</workingdirectory>
+</service>

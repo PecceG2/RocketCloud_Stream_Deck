@@ -1,0 +1,2 @@
+2021-02-16 21:28:55 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\pecce\Desktop\Proyectos\01. Hardware\02. RocketCloud Stream Deck\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\pecce\Desktop\Proyectos\01. Hardware\02. RocketCloud Stream Deck\index.js" --scriptoptions= --log "RocketCloud StreamDeck wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-16 21:28:55 - Started 9736

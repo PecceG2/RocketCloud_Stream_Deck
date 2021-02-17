@@ -58,6 +58,23 @@ Before continuing it is necessary have Node JS server installed. You can downloa
    ```
 
 
+### Installation as a service
+
+1. Clone the repo on definitive location files.
+   ```sh
+   git clone https://github.com/PecceG2/RocketCloud_Stream_Deck.git
+   ```
+2. If you need use DiscordBOT, change your BOT TOKEN on `config.json`
+   ```JS
+   "BOT_TOKEN": "YOUR_BOT_TOKEN"
+   ```
+3. Install service with `service_install.bat` bat file (run it as Administrator)
+
+## Uninstalling a service
+1. Go to installation folder (Or `service_install.bat` file location)
+2. Uninstall service with `service_uninstall.bat` bat file (run it as Administrator)
+      
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
